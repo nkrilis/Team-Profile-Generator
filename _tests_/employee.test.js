@@ -2,8 +2,10 @@
 
 const Employee = require('../lib/employee');
 
+// Create testing suite
 describe("Employee", () => 
 {
+    // Check object creation
     describe("Initialization", () => 
     {
         it("Should create an object with name, id, and email", () =>
@@ -16,6 +18,7 @@ describe("Employee", () =>
         });
     });
 
+    // Check object function getName()
     describe("Get Name", () =>
     {
         it("Should return the name property of the object created", () =>
@@ -26,6 +29,7 @@ describe("Employee", () =>
         });
     });
 
+    // Check object function getId()
     describe("Get id", () =>
     {
         it("Should return the id property of the object created", () =>
@@ -36,6 +40,7 @@ describe("Employee", () =>
         });
     });
 
+    // Check object function getEmail()
     describe("Get email", () =>
     {
         it("Should return the email property of the object created", () =>
@@ -46,6 +51,7 @@ describe("Employee", () =>
         });
     });
 
+    // Check object function getRole()
     describe("Get Role", () =>
     {
         it("Should return the type of the object created", () =>

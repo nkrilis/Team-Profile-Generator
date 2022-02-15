@@ -2,8 +2,10 @@
 
 const Manager = require('../lib/manager');
 
+// Create testing suite
 describe("Manager", () => 
 {
+    // Check object creation
     describe("Intialization", () =>
     {
         it("Should create an Manager of type Employee with Office number", () =>
@@ -17,6 +19,7 @@ describe("Manager", () =>
         });
     });
 
+    // Check object function getRole()
     describe("Get Role", () =>
     {
         it("Should return the type of object created (i.e. Manager)", () =>
@@ -27,6 +30,7 @@ describe("Manager", () =>
         });
     });
 
+    // Check object function getName() inherited from Employee class
     describe("Get Name", () =>
     {
         it("Should return the name property of the object created", () =>
@@ -37,6 +41,7 @@ describe("Manager", () =>
         });
     });
 
+    // Check object function getId() inherited from Employee class
     describe("Get id", () =>
     {
         it("Should return the id property of the object created", () =>
@@ -47,6 +52,7 @@ describe("Manager", () =>
         });
     });
 
+    // Check object function getEmail() inherited from Employee class
     describe("Get email", () =>
     {
         it("Should return the email property of the object created", () =>
