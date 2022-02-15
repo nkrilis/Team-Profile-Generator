@@ -15,4 +15,3 @@ const inquirer = require('inquirer');
 // Using fs for file writing
 const fs = require("fs");
 
-console.log(webStr);
