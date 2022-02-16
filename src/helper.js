@@ -1,4 +1,4 @@
-// --- Helper js to hold functions ---
+// --- Helper js to hold functions for HTML creation ---
 
 function starterHtml ()
 {

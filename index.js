@@ -19,7 +19,7 @@ function writeToFile()
 {
     let content = starterHtml();
     fs.writeFile("./dist/index.html", content, (err) =>
-    err ? console.log(err) : console.log('Success! Your page was created'))
+    err ? console.log(err) : console.log(''))
 }
 
 function appendCard(obj)
