@@ -5,7 +5,9 @@
 
   ## Description
   
-  This project shows the use of javascript classes and jest testing. On runtime the user will be prompted with questions about creating new employees. An Employee can either be a Manager, Engineer, or Intern, all of which inherit from the main class employee. Once the user completes all the questions they will be asked if they would like to add another employee, after the user selects No to adding more employees all the data passed in from the user is then generated into a nice `html` page.
+  This project shows the use of javascript classes and jest testing. On runtime the user will be prompted with questions about creating new employees. An Employee can either be a Manager, Engineer, or Intern, all of which inherit from the main class employee. Once the user completes all the questions they will be asked if they would like to add another employee, after the user selects No to adding more employees all the data passed in from the user is then generated into a nice `html` page. (see below)
+  ![Screen Shot 2022-02-16 at 12 01 43 AM](https://user-images.githubusercontent.com/22037181/154199495-be0d47f3-0649-44d2-90f6-c228a74601e9.png)
+
   
   ## Table of Contents
   
@@ -19,7 +21,10 @@
   ## Installation
   Once you clone this repository you must first run `npm install` in order to install all node modules needed to run this project which are specified in the `package.json` file.
   ## Usage
-  In order to run this application navigate to the main directory where `index.js` is located the run `node index.js`, you will then be prompted by questions. Upon completion a `index.html` file will be created in the `dist` directory.
+  In order to run this application navigate to the main directory where `index.js` is located, then run `node index.js` you will then be prompted by questions. Upon completion a `index.html` file will be created in the `dist` directory. 
+  
+   [Here you can view a video tutorial](https://drive.google.com/file/d/1DZjeSYFZ0VSL4nnnTMKFV1W0zF_S8F59/view?usp=sharing)
+  
   ## How to Contribute
   Contributors to this project are solely Nicholas Krilis. If you would like to make some changes you can fork this repository, make your additions/changes and submit your pull request(s). I will take a look and merge it if all looks good. Thank you!
   ## Tests
