@@ -6,6 +6,7 @@
   ## Description
   
   This project shows the use of javascript classes and jest testing. On runtime the user will be prompted with questions about creating new employees. An Employee can either be a Manager, Engineer, or Intern, all of which inherit from the main class employee. Once the user completes all the questions they will be asked if they would like to add another employee, after the user selects No to adding more employees all the data passed in from the user is then generated into a nice `html` page. (see below)
+  
   ![Screen Shot 2022-02-16 at 12 01 43 AM](https://user-images.githubusercontent.com/22037181/154199495-be0d47f3-0649-44d2-90f6-c228a74601e9.png)
 
   
