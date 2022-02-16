@@ -15,6 +15,7 @@ const inquirer = require('inquirer');
 // Using fs for file writing
 const fs = require("fs");
 
+// Function to create begining of html
 function writeToFile() 
 {
     let content = starterHtml();
@@ -22,6 +23,7 @@ function writeToFile()
     err ? console.log(err) : console.log(''))
 }
 
+// Finction to create each card for employees
 function appendCard(obj)
 {
     let content = createCard(obj);
@@ -29,6 +31,7 @@ function appendCard(obj)
     err ? console.log(err) : console.log('Success! Your page was created'))
 }
 
+// Function to add the closing elements to the HTML
 function closeFile ()
 {
     let content = closeHtml();
@@ -36,6 +39,7 @@ function closeFile ()
     err ? console.log(err) : console.log('Success! Your page was created'))
 }
 
+// Function to prompt the user with questions per employee and create each card
 const createEmployee = () =>
 {
     inquirer
@@ -124,5 +128,7 @@ const createEmployee = () =>
         console.log(err);
     });
 }
+
 writeToFile();
 createEmployee();
+
